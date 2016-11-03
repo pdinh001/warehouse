@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Warehouse Info</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<nav id="mainNav">
+		<ul>
+			<li><a href="skuimage.html">SKU Image</a></li>
+			<li><a href="skuweight.html">SKU Weight</a></li>
+		</ul>
+	</nav>
+	<div class="skuPage">
+		<h3>SKU Weight</h3>
+		<form>
+			<label for="sku">SKU: </label>
+			<input type="text" class="skuName" onkeypress="return calculateWeight()"><br/>
+			<label for="sku">SKU: </label>
+			<input type="text" class="skuName" onkeypress="return calculateWeight()"><br/>
+			<label for="sku">SKU: </label>
+			<input type="text" class="skuName" onkeypress="return calculateWeight()"><br/>
+			<label for="sku">SKU: </label>
+			<input type="text" class="skuName" onkeypress="return calculateWeight()"><br/>
+			<label for="sku">SKU: </label>
+			<input type="text" class="skuName" onkeypress="return calculateWeight()"><br/>
+			<label for="sku">SKU: </label>
+			<input type="text" class="skuName" onkeypress="return calculateWeight()"><br/>
+		</form>
+		<button onclick="calculateWeight()">Calculate</button>
+		<button onclick="reset()">Reset</button>
+
+		<h4>Total weight: <span id="weightPound"></span></h4>
+		<h4>Total weight: <span id="weightOz"></span></h4>
+	</div>
+
+</body>
+</html>

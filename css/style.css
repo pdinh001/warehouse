@@ -1,0 +1,45 @@
+body {
+	background: #888;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.skuPage {
+	margin-left: 15px;
+}
+
+/* Navigation Menu---------------------------------------*/
+#mainNav {
+	background: #000;
+}
+
+#mainNav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+/*	text-align: center;*/
+}
+
+#mainNav ul li {
+	display: inline-block;
+	font-variant: small-caps;
+	font-size: 20px;
+}
+
+#mainNav a {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 20px;
+}
+
+#mainNav a:hover {
+	background: #333;
+}
+
+/*SKU Weight ----------------------------------------*/
+
+/*SKU Image ----------------------------------------*/
+.skuImageForm {
+	display:inline-block;
+}

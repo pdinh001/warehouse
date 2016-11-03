@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Warehouse Info</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<nav id="mainNav">
+		<ul>
+			<li><a href="skuimage.html">SKU Image</a></li>
+			<li><a href="skuweight.html">SKU Weight</a></li>
+		</ul>
+	</nav>
+	<div class="skuPage">
+		<h3>SKU Image</h3>
+		<form class="skuImageForm" action="javascript:getSkuImage();">
+			<label for="skuSearch">SKU: </label>
+			<input type="text" id="skuSearch">
+			<input type="submit" value="Search">
+
+		</form>
+<!-- 		<button class="skuImageForm" onclick="getSkuImage()">Search</button> -->
+		
+		<div>
+			<img id="skuImage" src="images/sku/skuimage.jpg" width="300px">
+		</div>
+	</div>
+
+
+
+
+
+	
+</body>
+</html>
