@@ -1,7 +1,7 @@
 //Display searched image
 function getSkuImage() {
 	var skuInput = document.getElementById('skuSearch');
-	document.getElementById('skuImage').src = "images/sku/" + skuInput.value + ".jpg";
+	document.getElementById('skuImage').src = "images/sku/" + skuInput.value.toLowerCase() + ".jpg";
 	skuInput.value = "";
 }
 
