@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Warehouse Info</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="header">
+      <h3>Warehouse Info</h3>
+    </div>
+    
+    <div id="navBar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="skuinfo.html">SKU Info</a></li>
+        <li><a href="weight.html">Weight</a></li>
+      </ul>
+    </div>
+
+    <div id="content">
+      
+      <!-- Sku info -->
+      <div id="imageBox">
+        <form action="javascript:getSkuImage();">
+          <div class="input-group">
+            <span class="input-group-btn">
+              <button class="btn btn-danger" type="button" onclick="getSkuImage()">Search</button>
+            </span>
+            <input type="text" class="form-control" placeholder="SKU" id="skuSearch">
+          </div><!-- end of input-group -->
+        </form>
+        <img  id="skuImage" class="img-responsive" src="">
+        
+      </div> <!-- end of imageBox -->
+      
+
+    </div><!-- end of content -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/weights.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
